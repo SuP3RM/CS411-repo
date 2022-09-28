@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T04:27:24.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lyqdd5g0X--LpWPbWmBl" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T04:27:34.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="d7O2D32iYfy841oZqtFb" version="20.3.7" type="github">
   <diagram id="5FsEK9WS1CDFVUI4V21R" name="Page-1">
-    <mxGraphModel dx="1422" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,10 +148,10 @@
           <mxGeometry x="670" y="235" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-50" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;The attribute closure is equal to all attributes of R,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;now the attributes form the only candidate key(s),&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;algorithm terminates.&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Found super keys&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="590" y="295" width="250" height="60" as="geometry" />
+          <mxGeometry x="595" y="320" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-52" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;candidate keys: ACD, ADE&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="690" y="350" width="150" height="30" as="geometry" />
+          <mxGeometry x="695" y="380" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-54" value="ADE+ = ADEBC&amp;nbsp; -- super key" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="660" y="290" width="180" height="30" as="geometry" />
