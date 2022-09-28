@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T05:17:54.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dZld8BB06jUibeMPYjpR" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T05:20:25.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kLDBs915Ta7jkPQMbl3i" version="20.3.7" type="github">
   <diagram id="x0P4BWGAPjXdVNA-y02q" name="Page-1">
     <mxGraphModel dx="1718" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,6 +51,9 @@
         </mxCell>
         <mxCell id="uiknaBdA9rwEHm0Xgku0-20" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;A relation schema R is in the BCNF with respect to a set F of FDs&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;if, and only if, for each FD X→Y in F⁺ with X ⊆ R and Y ⊆ R&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;at least one of the following conditions holds:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;X → Y is a trivial FD (i.e., Y ⊆ X holds), or&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;X is a superkey of R&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="30" y="220" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uiknaBdA9rwEHm0Xgku0-21" value="&lt;div&gt;No violation for the BCNF: The FD AC→E has a superkey on its left-hand side&lt;/div&gt;&lt;div&gt;Violation of the two conditions for the BCNF: The FD BE→AD is not trivial and does not have a superkey on its left-hand side&lt;/div&gt;&lt;div&gt;Violation of the two conditions for the BCNF: The FD C→BD is not trivial and does not have a superkey on its left-hand side&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Hence, given relation is not in BCNF&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="800" width="680" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
