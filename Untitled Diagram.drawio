@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T04:04:30.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G91IVmTQ8k730V4PEvPz" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T04:08:54.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tpmWWE7ibpryBCsoyVlY" version="20.3.7" type="github">
   <diagram id="5FsEK9WS1CDFVUI4V21R" name="Page-1">
-    <mxGraphModel dx="825" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,8 +62,8 @@
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-25" value="AD+ = ABCDE&amp;nbsp; -- all attributes, candidate key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="20" y="290" width="270" height="30" as="geometry" />
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-25" value="AD+ = ABCDE&amp;nbsp; -- all attributes (super key), candidate key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="25" y="285" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-26" value="BD+ = BD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="20" y="315" width="80" height="30" as="geometry" />
@@ -73,6 +73,15 @@
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-28" value="*Determine the attributes that are only on (and neither on) the left/right side of any FD*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="5" y="170" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-29" value="&lt;div&gt;The attribute closure is equal to all attributes of R,&amp;nbsp;&lt;/div&gt;&lt;div&gt;now the attributes form the only candidate key(s),&amp;nbsp;&lt;/div&gt;&lt;div&gt;algorithm terminates&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-30" value="combine attributes hat don&#39;t contain AD (its a super key)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="15" y="420" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-31" value="&lt;b&gt;candidate keys: AD, BCD&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
