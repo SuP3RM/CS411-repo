@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T04:13:39.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="FWi-5vZWEezOJUeF_zuZ" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T04:17:21.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="2rKpFBXhrcKmZvXXSbPX" version="20.3.7" type="github">
   <diagram id="5FsEK9WS1CDFVUI4V21R" name="Page-1">
     <mxGraphModel dx="687" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -59,8 +59,8 @@
             <mxRectangle width="49" height="15" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-25" value="AD+ = ABCDE&amp;nbsp; -- all attributes (super key), candidate key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry y="180" width="280" height="30" as="geometry" />
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-25" value="AD+ = ABCDE&amp;nbsp; -- all attributes of R (super key), candidate key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-26" value="BD+ = BD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
           <mxGeometry y="210" width="70" height="30" as="geometry" />
@@ -68,8 +68,8 @@
         <mxCell id="W_vkIJsy8VazSnW6N2xH-27" value="CD+ = CDE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
           <mxGeometry y="240" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-28" value="*Determine the attributes that are only on (and neither on) the left/right side of any FD*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="210" y="110" width="410" height="30" as="geometry" />
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-28" value="*Separate the attributes that are only on (and neither on) the left/right side of any FD*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="215" y="110" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-29" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;The attribute closure is equal to all attributes of R,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;now the attributes form the only candidate key(s),&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;algorithm terminates&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="5" y="270" width="250" height="50" as="geometry" />
@@ -137,6 +137,15 @@
           <mxGeometry x="146" width="49" height="15" as="geometry">
             <mxRectangle width="49" height="15" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-47" value="AD+ = ADB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="750" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-48" value="B+ = B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="760" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-49" value="C+ =&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="755" y="235" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
