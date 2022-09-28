@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T03:53:53.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5u39WzCQ1BmSvwMVBEhy" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T04:01:47.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tkoswhHMEe5pfUmMTD7S" version="20.3.7" type="github">
   <diagram id="5FsEK9WS1CDFVUI4V21R" name="Page-1">
     <mxGraphModel dx="982" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,6 +61,15 @@
           <mxGeometry x="150" width="50" height="30" as="geometry">
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-25" value="AD+ = ABCDE&amp;nbsp; -- all attributes, candidate key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-26" value="BD+ = BD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="275" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-27" value="CD+ = CDE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
