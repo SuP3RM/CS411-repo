@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T04:21:10.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CzuuuxbRFxsLELjbaUKj" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T04:22:52.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ipos9x7qXFgDbjmUiQ2W" version="20.3.7" type="github">
   <diagram id="5FsEK9WS1CDFVUI4V21R" name="Page-1">
     <mxGraphModel dx="825" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -148,13 +148,13 @@
           <mxGeometry x="670" y="235" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-50" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;The attribute closure is equal to all attributes of R,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;now the attributes form the only candidate key(s),&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;algorithm terminates&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="590" y="265" width="250" height="50" as="geometry" />
+          <mxGeometry x="600" y="300" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-51" value="combine attributes hat don&#39;t contain AD (its a super key)" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="580" y="320" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-52" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;candidate keys: ACD, ABD&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-52" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;candidate keys: ACD, ADE&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="690" y="350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-54" value="ADE+ = ADEBC&amp;nbsp; -- super key" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="270" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
