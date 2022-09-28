@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T05:02:48.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ZDXTHrqpjGwmMh6jrdp7" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T05:03:02.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="aFJ0-Jpfe2r00-M-rXzJ" version="20.3.7" type="github">
   <diagram id="5FsEK9WS1CDFVUI4V21R" name="Page-1">
     <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -258,18 +258,6 @@
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-86" value="found all candidate keys" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="15" y="1010" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-87" value="AG+ = AG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="480" y="590" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-88" value="BG+ = BG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="480" y="630" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-89" value="EG+ = EG&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="480" y="670" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-90" value="AEG+ = AEG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="475" y="710" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
