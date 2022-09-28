@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T04:26:10.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="SPF8tA5Vp5Mc1KwwT0vD" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T04:27:24.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lyqdd5g0X--LpWPbWmBl" version="20.3.7" type="github">
   <diagram id="5FsEK9WS1CDFVUI4V21R" name="Page-1">
     <mxGraphModel dx="1422" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -154,19 +154,25 @@
           <mxGeometry x="690" y="350" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-54" value="ADE+ = ADEBC&amp;nbsp; -- super key" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="670" y="270" width="180" height="30" as="geometry" />
+          <mxGeometry x="660" y="290" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-55" value="&lt;b&gt;R(A,B,C,D,E,F,G)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;FD&lt;/b&gt;:&amp;nbsp;&lt;br&gt;AB --&amp;gt; CDEF&lt;br&gt;C --&amp;gt; ADE&lt;br&gt;D --&amp;gt; EBF&lt;br&gt;F --&amp;gt; DA&lt;br&gt;BE --&amp;gt; AF" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="20" y="510" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="W_vkIJsy8VazSnW6N2xH-56" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Q4C.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="15" y="470" width="50" height="30" as="geometry" />
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-56" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Q4C.&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="5" y="465" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-57" value="Find all candidate keys" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="15" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W_vkIJsy8VazSnW6N2xH-58" value="Find all candidate keys" style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="700" width="160" height="40" as="geometry" />
+          <mxGeometry x="685" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-59" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;i. Find all candidate keys.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="130" y="510" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W_vkIJsy8VazSnW6N2xH-60" value="&lt;div&gt;ii. Find at least four non-trivial functional dependencies that are different from the&lt;/div&gt;&lt;div&gt;ones listed in the question&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="520" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
