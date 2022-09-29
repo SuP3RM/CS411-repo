@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T02:48:48.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cv8Dc3lAQlYEUO3zHasP" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-29T02:56:11.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ozSc9qELLO6C7oXKkMXa" version="20.3.7" type="github">
   <diagram id="x0P4BWGAPjXdVNA-y02q" name="Page-1">
-    <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1375" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,10 +172,10 @@
           <mxGeometry x="30" y="3360" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eeZdb0KKtYjsDhFGd_XS-39" value="&lt;i&gt;i. Compute the minimal basis of FD&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="30" y="3390" width="230" height="30" as="geometry" />
+          <mxGeometry x="10" y="3390" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eeZdb0KKtYjsDhFGd_XS-40" value="ii.&amp;nbsp;Decompose the relation R into a set of relations that are in 3NF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="25" y="4220" width="400" height="30" as="geometry" />
+          <mxGeometry x="10" y="4055" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eeZdb0KKtYjsDhFGd_XS-42" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Q5C.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="4400" width="70" height="40" as="geometry" />
@@ -201,8 +201,88 @@
         <mxCell id="eeZdb0KKtYjsDhFGd_XS-49" value="ii." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="5" y="4945" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eeZdb0KKtYjsDhFGd_XS-50" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u style=&quot;&quot;&gt;LHS reduction&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking DF --&amp;gt; B&lt;/div&gt;&lt;div&gt;F+ =&amp;nbsp; F&lt;/div&gt;&lt;div&gt;D stays since no B&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;D+ =&amp;nbsp; &lt;b&gt;B&lt;/b&gt;CDEF&lt;/div&gt;&lt;div&gt;F gets removed since it includes B&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking BF --&amp;gt;CE&lt;/div&gt;&lt;div&gt;F+ =&amp;nbsp; F&lt;/div&gt;&lt;div&gt;B stays since no CE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;B+ =&amp;nbsp; B&lt;b&gt;CE&lt;/b&gt;F&lt;/div&gt;&lt;div&gt;F gets removed since it includes CE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;checkpoint: B→C, D→CE, D→B, C→EF, B→CE&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;RHS reduction&lt;/u&gt;&lt;/div&gt;&lt;div&gt;Checking B --&amp;gt; C:&lt;/div&gt;&lt;div&gt;(not considering B --&amp;gt; C) B+ = B&lt;b&gt;C&lt;/b&gt;EF&amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;C can be removed (in subset)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking D --&amp;gt; CE:&lt;/div&gt;&lt;div&gt;(not considering D --&amp;gt; C) D+ = DBCEF&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;C can be removed (in subset)&lt;/div&gt;&lt;div&gt;(not considering D --&amp;gt; E) D+ = BCDEF &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;E can be removed (in subset)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking D --&amp;gt; B:&lt;/div&gt;&lt;div&gt;(not considering D --&amp;gt; B) D+ = D&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;B stays&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking C --&amp;gt; EF:&lt;/div&gt;&lt;div&gt;(not considering C --&amp;gt; E) C+ = CF&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; E stays&lt;/div&gt;&lt;div&gt;(not considering C --&amp;gt; F) C+ = CE&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;F stays&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;Checking B --&amp;gt; CE:&lt;/div&gt;&lt;div&gt;(not considering B --&amp;gt; C) B+ = BE &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;C stays&lt;/div&gt;&lt;div&gt;(not considering B --&amp;gt; E) B+ = BCEF&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;E can be removed (in subset)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;remove the empty sets from the checkpoint and&lt;/div&gt;&lt;div&gt;&lt;b&gt;Minimal basis&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;= [D→B, C→EF, B→C]&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-50" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u style=&quot;&quot;&gt;LHS reduction&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking DF --&amp;gt; B&lt;/div&gt;&lt;div&gt;F+ =&amp;nbsp; F&lt;/div&gt;&lt;div&gt;D stays since no B&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;D+ =&amp;nbsp; &lt;b&gt;B&lt;/b&gt;CDEF&lt;/div&gt;&lt;div&gt;F gets removed since it includes B&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking BF --&amp;gt;CE&lt;/div&gt;&lt;div&gt;F+ =&amp;nbsp; F&lt;/div&gt;&lt;div&gt;B stays since no CE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;B+ =&amp;nbsp; B&lt;b&gt;CE&lt;/b&gt;F&lt;/div&gt;&lt;div&gt;F gets removed since it includes CE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;checkpoint: B→C, D→CE, D→B, C→EF, B→CE&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;RHS reduction&lt;/u&gt;&lt;/div&gt;&lt;div&gt;Checking B --&amp;gt; C:&lt;/div&gt;&lt;div&gt;(not considering B --&amp;gt; C) B+ = B&lt;b&gt;C&lt;/b&gt;EF&amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;C can be removed (in subset)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking D --&amp;gt; CE:&lt;/div&gt;&lt;div&gt;(not considering D --&amp;gt; C) D+ = DBCEF&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;C can be removed (in subset)&lt;/div&gt;&lt;div&gt;(not considering D --&amp;gt; E) D+ = BCDEF &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;E can be removed (in subset)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking D --&amp;gt; B:&lt;/div&gt;&lt;div&gt;(not considering D --&amp;gt; B) D+ = D&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;B stays&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checking C --&amp;gt; EF:&lt;/div&gt;&lt;div&gt;(not considering C --&amp;gt; E) C+ = CF&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; E stays&lt;/div&gt;&lt;div&gt;(not considering C --&amp;gt; F) C+ = CE&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;F stays&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;Checking B --&amp;gt; CE:&lt;/div&gt;&lt;div&gt;(not considering B --&amp;gt; C) B+ = BE &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;C stays&lt;/div&gt;&lt;div&gt;(not considering B --&amp;gt; E) B+ = BCEF&amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;E can be removed (in subset)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;remove the empty sets from the checkpoint and&lt;/div&gt;&lt;div&gt;&lt;b&gt;Minimal basis&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;= [D→B, C→EF, B→C]&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="3415" width="430" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="eeZdb0KKtYjsDhFGd_XS-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="4105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-51" value="use&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;Minimal basis&lt;/span&gt;&lt;b style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;= [D→B, C→EF, B→C]&lt;/span&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="30" y="4090" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="eeZdb0KKtYjsDhFGd_XS-52" target="eeZdb0KKtYjsDhFGd_XS-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-52" value="&lt;div&gt;R1(DB) with &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FDs F1 = {D --&amp;gt; B}&lt;/div&gt;&lt;div&gt;R2(CEF) with &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FDs F2 = {C --&amp;gt; EF}&lt;/div&gt;&lt;div&gt;R3(BC) with &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FDs F3 = {B --&amp;gt; C}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="360" y="4085" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-54" value="find candidate keys" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4145" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-55" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="45" y="4180" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-55">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-57" value="LEFT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-56">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-58" value="MIDDLE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-56">
+          <mxGeometry x="60" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-59" value="RIGHT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-56">
+          <mxGeometry x="120" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-60" value="NONE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-56">
+          <mxGeometry x="180" width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-61" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-55">
+          <mxGeometry y="30" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-62" value="D" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-61">
+          <mxGeometry width="60" height="24" as="geometry">
+            <mxRectangle width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-63" value="B,C" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-61">
+          <mxGeometry x="60" width="60" height="24" as="geometry">
+            <mxRectangle width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-64" value="E,F" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-61">
+          <mxGeometry x="120" width="60" height="24" as="geometry">
+            <mxRectangle width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-65" value="A" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=13;" vertex="1" parent="eeZdb0KKtYjsDhFGd_XS-61">
+          <mxGeometry x="180" width="60" height="24" as="geometry">
+            <mxRectangle width="60" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-67" value="DA+ candidate key since &#39;left&#39; and &#39;none&#39;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4234" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="eeZdb0KKtYjsDhFGd_XS-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="4295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-68" value="However key is not in schema relation so we add it&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="10" y="4280" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eeZdb0KKtYjsDhFGd_XS-70" value="&lt;div&gt;&lt;b&gt;R1(DB) with &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FDs F1 = {D→B}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;R2(CEF) with &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FDs F2 = {C→EF}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;R3(BC) with &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FDs F3 = {B→C}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;R4(AD) with &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FDs F4 = {}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;in 3NF&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="4264" width="220" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
